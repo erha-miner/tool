@@ -31,6 +31,34 @@ stratum+tcp和stratum+SSL只是内容数据包有没有加密的区别，但是�
 -L ： 本地端口，默认为6666  
 -P :   挖矿地址，目前支持E池,鱼池,币印,凤池,欧易,币安,蚂蚁,hive 池,2miners,独角兽,ezil ,支持SSL方式，格式：域名+端口  
   
-配置好bat文件之后，双击运行，保留窗口即可  
+配置好bat文件之后，双击运行，保留窗口开启  
+
+
+2、挖矿脚本调整：  
+
+挖矿脚本需要调整为执行本地/局域网IP+本地端口进行加密隧道中转，本质来说就是替换原本矿池Ip，指向到本地加密去特征码后转发，达到安全的环境（因为走的是本地内网，只需要配置为TCP模式即可）  
+
+lolMiner:  
+lolMiner.exe --algo ETHASH --pool 127.0.0.1:6666 --user YOUR_WALLET_ADDRESS.RIG_ID  
+
+Gminer:  
+miner.exe --algo ethash --server 127.0.0.1:6666 --user YOUR_WALLET_ADDRESS.RIG_ID  
+
+T-Rex:  
+t-rex.exe -a ethash -o stratum+tcp://127.0.0.1:6666 -u YOUR_WALLET_ADDRESS -w RIG_ID -p x  
+
+Red Miner:  
+teamredminer.exe -a ethash -o stratum+tcp://127.0.0.1:6666 -u YOUR_WALLET_ADDRESS.RIG_ID -p x  
+
+NBminer:  
+nbminer.exe -a ethash -o stratum+tcp://127.0.0.1:6666 -u YOUR_WALLET_ADDRESS.RIG_ID  
+
+Bminer:  
+bminer.exe -uri ethproxy://YOUR_WALLET_ADDRESS.RIG_ID@127.0.0.1:6666  
+
+轻松矿工：新增矿池即可  
+
+
+
 
 
