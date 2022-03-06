@@ -19,4 +19,18 @@ stratum+tcp和stratum+SSL只是内容数据包有没有加密的区别，但是�
 最新版下载在这里 https://github.com/erha-miner/tool/releases
 
 
+本工具收取极少Gas费用为0.1%,用于维护和升级，这个费用并不多，1000块钱每天就费用只有1块钱，大部分每天只需要支出几毛钱就可以使用到绝对安全的隧道加密通道，开发不容易，请多理解  
+
+免责协议：请您务必在当地法律法规允许的前提下进行  
+
+使用方法（windows系统）：  
+
+解压erha-miner.zip，右击start.bat脚本，配置好本地端口和矿池IP  
+脚本例子：erha-miner.exe -L=6666 -P=asia2.ethermine.org:5555  
+参数含义：  
+-L ： 本地端口，默认为6666  
+-P :   挖矿地址，目前支持E池,鱼池,币印,凤池,欧易,币安,蚂蚁,hive 池,2miners,独角兽,ezil ,支持SSL方式，格式：域名+端口  
+  
+配置好bat文件之后，双击运行，保留窗口即可  
+
 
