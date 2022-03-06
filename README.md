@@ -68,9 +68,13 @@ bminer.exe -uri ethproxy://YOUR_WALLET_ADDRESS.RIG_ID@127.0.0.1:6666
 可以在其中一台windows矿机上运行并记录下该台机器的内网IP如192.168.1.88，
 其他矿机挖矿地址填写 192.168.1.88:6666 即可统一通过隧道加密流量出去
 
-目前仅支持ETH矿机使用，看使用量再决定是否新增ETC和BTC矿池加密中转
-仅供学习，请勿用于非法用途
+目前仅支持ETH矿机使用，看使用量再决定是否新增ETC和BTC矿池加密中转  
+仅供学习，请勿用于非法用途  
 
-如果你的矿池暂时还没支持，可以去Github提交issue，我们会尽快加上
-或者进入我们的Telegram社区 => (暂停)
+如果你的矿池暂时还没支持，可以去Github提交issue，我们会尽快加上  
+或者进入我们的Telegram社区 => (暂停)  
 
+
+win10服务器系统如何设置开机自启动  
+1，打开文件夹，输入C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp  
+2，把bat脚本生成快捷方式，然后拉到这个启动目录下面（需要管理员权限）  
