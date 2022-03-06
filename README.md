@@ -18,9 +18,6 @@ stratum+tcp和stratum+SSL只是内容数据包有没有加密的区别，但是�
 官网在这里  https://github.com/erha-miner/tool  
 最新版下载在这里 https://github.com/erha-miner/tool/releases
 
-
-本工具收取极少Gas费用为0.1%,用于维护和升级，这个费用并不多，1000块钱每天就费用只有1块钱，大部分每天只需要支出几毛钱就可以使用到绝对安全的隧道加密通道，开发不容易，请多理解  
-
 免责协议：请您务必在当地法律法规允许的前提下进行  
 
 使用方法（windows系统）：  
