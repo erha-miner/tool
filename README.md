@@ -59,7 +59,7 @@ Bminer:
 bminer.exe -uri ethproxy://YOUR_WALLET_ADDRESS.RIG_ID@127.0.0.1:6666  
 
 轻松矿工：新增矿池即可  
-
+![image](https://github.com/erha-miner/tool/blob/main/3.png)
 
 
 
