@@ -75,6 +75,6 @@ bminer.exe -uri ethproxy://YOUR_WALLET_ADDRESS.RIG_ID@127.0.0.1:6666
 或者进入我们的Telegram社区 => (暂停)  
 
 
-win10服务器系统如何设置开机自启动  
+win10系统如何设置开机自启动  
 1，打开文件夹，输入C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp  
 2，把bat脚本生成快捷方式，然后拉到这个启动目录下面（需要管理员权限）  
