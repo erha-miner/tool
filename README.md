@@ -25,13 +25,14 @@ stratum+tcp和stratum+SSL只是内容数据包有没有加密的区别，但是�
 
 使用方法（windows系统）：  
 
-解压erha-miner.zip，右击start.bat脚本，配置好本地端口和矿池IP  
+解压erha-miner.zip，右击编辑start.bat脚本，配置好本地端口和矿池IP  
 脚本例子：erha-miner.exe -L=6666 -P=asia2.ethermine.org:5555  
 参数含义：  
 -L ： 本地端口，默认为6666  
 -P :   挖矿地址，目前支持E池,鱼池,币印,凤池,欧易,币安,蚂蚁,hive 池,2miners,独角兽,ezil ,支持SSL方式，格式：域名+端口  
   
 配置好bat文件之后，双击运行，保留窗口开启  
+按文件夹里面配置好开启自动启动  
 
 ![image](https://github.com/erha-miner/tool/blob/main/1.png)
 
@@ -62,5 +63,14 @@ bminer.exe -uri ethproxy://YOUR_WALLET_ADDRESS.RIG_ID@127.0.0.1:6666
 ![image](https://github.com/erha-miner/tool/blob/main/3.png)
 
 
+局域网内其他矿机加密隧道设置：
+如果你有多台矿机，或者Hiveos等系统，
+可以在其中一台windows矿机上运行并记录下该台机器的内网IP如192.168.1.88，
+其他矿机挖矿地址填写 192.168.1.88:6666 即可统一通过隧道加密流量出去
 
+目前仅支持ETH矿机使用，看使用量再决定是否新增ETC和BTC矿池加密中转
+仅供学习，请勿用于非法用途
+
+如果你的矿池暂时还没支持，可以去Github提交issue，我们会尽快加上
+或者进入我们的Telegram社区 => (暂停)
 
