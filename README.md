@@ -69,7 +69,7 @@ bminer.exe -uri ethproxy://YOUR_WALLET_ADDRESS.RIG_ID@127.0.0.1:6666
 仅供学习，请勿用于非法用途  
 
 如果你的矿池暂时还没支持，可以去Github提交issue，我们会尽快加上  
-或者进入我们的Telegram社区 => (暂停)  
+或者进入我们的Telegram社区 => https://t.me/+705pDXN7kBA0OWE5
 
 
 win10系统如何设置开机自启动  
