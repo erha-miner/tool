@@ -18,6 +18,14 @@ stratum+tcp和stratum+SSL只是内容数据包有没有加密的区别，但是�
 官网在这里  https://github.com/erha-miner/tool  
 最新版下载在这里 https://github.com/erha-miner/tool/releases
 
+Erha-miner矿工3.0稳定版本重磅更新  
+1，加入了ETC矿池的加密隧道。  
+2，调整了加密方法极大提高稳定性。  
+3，加入了分布式节点增强了挖矿的安全和隐秘性。  
+4，加入了okkminer矿池的支持。  
+5，长期支持版本，放心使用。  
+6，建议旧版本进行升级更新。  
+
 免责协议：请您务必在当地法律法规允许的前提下进行  
 
 使用方法（windows系统）：  
@@ -38,23 +46,8 @@ stratum+tcp和stratum+SSL只是内容数据包有没有加密的区别，但是�
 
 挖矿脚本需要调整为执行本地/局域网IP+本地端口进行加密隧道中转，本质来说就是替换原本矿池Ip，指向到本地加密去特征码后转发，达到安全的环境（因为走的是本地内网，只需要配置为TCP模式即可）  
 
-lolMiner:  
-lolMiner.exe --algo ETHASH --pool 127.0.0.1:6666 --user YOUR_WALLET_ADDRESS.RIG_ID  
-
-Gminer:  
-miner.exe --algo ethash --server 127.0.0.1:6666 --user YOUR_WALLET_ADDRESS.RIG_ID  
-
-T-Rex:  
-t-rex.exe -a ethash -o stratum+tcp://127.0.0.1:6666 -u YOUR_WALLET_ADDRESS -w RIG_ID -p x  
-
-Red Miner:  
-teamredminer.exe -a ethash -o stratum+tcp://127.0.0.1:6666 -u YOUR_WALLET_ADDRESS.RIG_ID -p x  
-
 NBminer:  
 nbminer.exe -a ethash -o stratum+tcp://127.0.0.1:6666 -u YOUR_WALLET_ADDRESS.RIG_ID  
-
-Bminer:  
-bminer.exe -uri ethproxy://YOUR_WALLET_ADDRESS.RIG_ID@127.0.0.1:6666  
 
 轻松矿工：新增矿池即可  
 ![image](https://github.com/erha-miner/tool/blob/main/3.png)
@@ -65,7 +58,7 @@ bminer.exe -uri ethproxy://YOUR_WALLET_ADDRESS.RIG_ID@127.0.0.1:6666
 可以在其中一台windows矿机上运行并记录下该台机器的内网IP如192.168.1.88，
 其他矿机挖矿地址填写 192.168.1.88:6666 即可统一通过隧道加密流量出去
 
-目前仅支持ETH矿机使用，看使用量再决定是否新增ETC和BTC矿池加密中转  
+目前仅支持ETH矿机和ETC矿机使用，看使用量再决定是否新增BTC/LTC矿机加密隧道中转
 仅供学习，请勿用于非法用途  
 
 如果你的矿池暂时还没支持，可以去Github提交issue，我们会尽快加上  
