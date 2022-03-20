@@ -1,7 +1,7 @@
 # Erha-miner
 使用二哈矿工构建加密隧道实现安全挖矿  
 
-注意：由于受到同行攻击防止网络不通，让你遭受损失，请尽快进入TG社区获取最新分布式节点。
+注意：由于受到同行攻击防止网络不通，现在决定不开放下载链接，请联系获取，Telegram:https://t.me/by221hd7
 
 stratum协议是目前最常用的矿机和矿池之间的TCP通讯协议，只有在挖矿场景才会用到。  
 
@@ -18,7 +18,7 @@ stratum+tcp和stratum+SSL只是内容数据包有没有加密的区别，但是�
 
   
 官网在这里  https://github.com/erha-miner/tool  
-最新版下载在这里 https://github.com/erha-miner/tool/releases
+最新版下载在这里 联系telegram:https://t.me/by221hd7
 
 Erha-miner矿工3.0稳定版本重磅更新  
 1，加入了ETC矿池的加密隧道。  
@@ -64,7 +64,7 @@ nbminer.exe -a ethash -o stratum+tcp://127.0.0.1:6666 -u YOUR_WALLET_ADDRESS.RIG
 仅供学习，请勿用于非法用途  
 
 如果你的矿池暂时还没支持，可以去Github提交issue，我们会尽快加上  
-或者进入我们的Telegram社区 => https://t.me/+705pDXN7kBA0OWE5
+或者联系telegram:https://t.me/by221hd7
 
 
 win10系统如何设置开机自启动  
