@@ -1,7 +1,16 @@
 # Erha-miner
 使用二哈矿工构建加密隧道实现安全挖矿  
 
-注意：由于受到同行攻击防止网络不通，现在决定不开放下载链接，请联系获取，Telegram:https://t.me/by221hd7
+Erha-miner矿工加密机4.0加强版重磅更新    
+1，加入了ETC矿池的加密隧道。    
+2，调整了加密方法极大提高稳定性。    
+3，加入了分布式节点增强了挖矿的安全和隐秘性。    
+4，加入了okkminer矿池的支持。    
+5，长期支持版本，放心使用。    
+6，建议旧版本进行升级更新。    
+下载连接：https://github.com/erha-miner/tool/releases/tag/4.01.1  
+
+免责协议：请您务必在当地法律法规允许的前提下进行    
 
 stratum协议是目前最常用的矿机和矿池之间的TCP通讯协议，只有在挖矿场景才会用到。  
 
@@ -18,17 +27,8 @@ stratum+tcp和stratum+SSL只是内容数据包有没有加密的区别，但是�
 
   
 官网在这里  https://github.com/erha-miner/tool  
-最新版下载在这里 联系telegram:https://t.me/by221hd7
+最新版下载在这里 https://github.com/erha-miner/tool/releases/tag/4.01.1
 
-Erha-miner矿工3.0稳定版本重磅更新  
-1，加入了ETC矿池的加密隧道。  
-2，调整了加密方法极大提高稳定性。  
-3，加入了分布式节点增强了挖矿的安全和隐秘性。  
-4，加入了okkminer矿池的支持。  
-5，长期支持版本，放心使用。  
-6，建议旧版本进行升级更新。  
-
-免责协议：请您务必在当地法律法规允许的前提下进行  
 
 使用方法（windows系统）：  
 
