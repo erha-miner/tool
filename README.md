@@ -1,13 +1,14 @@
 # Erha-miner
 使用二哈矿工构建加密隧道实现安全挖矿  
 
-Erha-miner矿工加密机4.0加强版重磅更新    
-1，加入了ETC矿池的加密隧道。    
-2，调整了加密方法极大提高稳定性。    
-3，加入了分布式节点增强了挖矿的安全和隐秘性。    
-4，加入了okkminer矿池的支持。    
-5，长期支持版本，放心使用。    
-6，建议旧版本进行升级更新。    
+Erha-miner矿工加密机4.0加强版重磅更新  
+二哈矿工安全隧道使用的是 http+tls 的协议，目的是伪装成普通的网页流量访问，让流量特征监控失效。  
+1，支持构建ETH/ETC矿池的加密隧道。  
+2，调整加密难度增强混淆系数。  
+3，完全防掉线自动更换节点。  
+4，支持国内外常用安全矿池。  
+5，长期支持版本，放心使用。  
+6，强烈建议旧版本进行升级更新     
 下载连接：https://github.com/erha-miner/tool/releases/tag/4.01.1  
 
 免责协议：请您务必在当地法律法规允许的前提下进行    
@@ -64,7 +65,7 @@ nbminer.exe -a ethash -o stratum+tcp://127.0.0.1:6666 -u YOUR_WALLET_ADDRESS.RIG
 仅供学习，请勿用于非法用途  
 
 如果你的矿池暂时还没支持，可以去Github提交issue，我们会尽快加上  
-或者联系telegram:https://t.me/by221hd7
+或者联系telegram:https://t.me/+hyrPYOuIfv5iZDFh
 
 
 win10系统如何设置开机自启动  
