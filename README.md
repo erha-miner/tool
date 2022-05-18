@@ -84,15 +84,15 @@ chmod 777 erha-miner-os
 启动二哈加密隧道(对应矿池脚本，参数为-L为挖矿端口，-P是对应官网矿池地址)：  
 ./erha-miner-os -L=6666 -P=asia-eth.2miners.com:12020   
   
-后台启动方式：  
-nohup ./erha-miner-os -L=6666 -P=asia-eth.2miners.com:12020   
+后台启动方式(注意结尾&)：  
+nohup ./erha-miner-os -L=6666 -P=asia-eth.2miners.com:12020 &   
   
 重启应用（或者更换矿池）：   
 找到进程：  
 ps -fe|grep erha-miner-os     
 （结果例如：root     2106547 2093677  0 09:12 pts/0    00:00:00 grep --color=auto erha-miner-os ）  
 终结进程（对应上面结果的进程号）：  
- kill -9 2093677    
+ kill -9 2106547    
 重新启动上面erha-miner-os脚本即可  
   
 os的开机启动：  
@@ -101,7 +101,7 @@ os的开机启动：
 [root@localhost ~]# vi /etc/rc.local  
   
 2.修改rc.local文件，在 exit 0 前面加入以下命令。保存并退出。  
-nohup ./erha-miner-os -L=6666 -P=asia-eth.2miners.com:12020   
+nohup ./erha-miner-os -L=6666 -P=asia-eth.2miners.com:12020 &
    
 os局域网内也是可以互通使用，注意检查防火墙的开启和关闭。  
 
