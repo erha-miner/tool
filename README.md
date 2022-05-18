@@ -28,7 +28,7 @@ stratum+tcp和stratum+SSL只是内容数据包有没有加密的区别，但是�
 
   
 官网在这里  https://github.com/erha-miner/tool  
-最新版下载在这里 https://github.com/erha-miner/tool/releases/tag/4.01.1
+最新版下载在这里 https://github.com/erha-miner/tool/releases/tag/4.3.0
 
 
 使用方法（windows系统）：  
