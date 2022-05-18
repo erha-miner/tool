@@ -71,3 +71,39 @@ nbminer.exe -a ethash -o stratum+tcp://127.0.0.1:6666 -u YOUR_WALLET_ADDRESS.RIG
 win10系统如何设置开机自启动  
 1，打开文件夹，输入C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp  
 2，把bat脚本生成快捷方式，然后拉到这个启动目录下面（需要管理员权限）  
+
+
+linux / os 使用方法：
+进入os的ssh面板输入
+下载文件：
+wget https://raw.githubusercontent.com/erha-miner/tool/main/erha-miner-os
+
+更改执行权限：
+chmod 777 erha-miner-os
+
+启动二哈加密隧道(对应矿池脚本，参数为-L为挖矿端口，-P是对应官网矿池地址)：
+./erha-miner-os -L=6666 -P=asia-eth.2miners.com:12020 
+
+后台启动方式：
+nohup ./erha-miner-os -L=6666 -P=asia-eth.2miners.com:12020 
+
+重启应用（或者更换矿池）： 
+找到进程：
+ps -fe|grep erha-miner-os   
+（结果例如：root     2106547 2093677  0 09:12 pts/0    00:00:00 grep --color=auto erha-miner-os ）
+终结进程（对应上面结果的进程号）：
+ kill -9 2093677  
+重新启动上面erha-miner-os脚本即可
+
+os的开机启动：
+
+# 1.编辑rc.local文件
+[root@localhost ~]# vi /etc/rc.local
+
+# 2.修改rc.local文件，在 exit 0 前面加入以下命令。保存并退出。
+nohup ./erha-miner-os -L=6666 -P=asia-eth.2miners.com:12020 
+ 
+os局域网内也是可以互通使用，注意检查防火墙的开启和关闭。
+
+
+
