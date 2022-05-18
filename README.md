@@ -97,10 +97,10 @@ ps -fe|grep erha-miner-os
 
 os的开机启动：
 
-# 1.编辑rc.local文件
+1.编辑rc.local文件
 [root@localhost ~]# vi /etc/rc.local
 
-# 2.修改rc.local文件，在 exit 0 前面加入以下命令。保存并退出。
+2.修改rc.local文件，在 exit 0 前面加入以下命令。保存并退出。
 nohup ./erha-miner-os -L=6666 -P=asia-eth.2miners.com:12020 
  
 os局域网内也是可以互通使用，注意检查防火墙的开启和关闭。
