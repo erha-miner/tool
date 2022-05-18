@@ -75,7 +75,7 @@ win10系统如何设置开机自启动
 
 # linux / os 使用方法：  
 进入os的ssh面板输入  
-下载文件：
+下载文件：  
 wget https://raw.githubusercontent.com/erha-miner/tool/main/erha-miner-os  
 
 更改执行权限：  
