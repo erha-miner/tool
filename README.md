@@ -73,7 +73,7 @@ win10系统如何设置开机自启动
 2，把bat脚本生成快捷方式，然后拉到这个启动目录下面（需要管理员权限）  
 
 
-linux / os 使用方法：
+# linux / os 使用方法：
 进入os的ssh面板输入
 下载文件：
 wget https://raw.githubusercontent.com/erha-miner/tool/main/erha-miner-os
@@ -104,6 +104,7 @@ os的开机启动：
 nohup ./erha-miner-os -L=6666 -P=asia-eth.2miners.com:12020 
  
 os局域网内也是可以互通使用，注意检查防火墙的开启和关闭。
+
 
 
 
