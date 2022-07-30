@@ -1,15 +1,17 @@
 # Erha-miner
 使用二哈矿工构建加密隧道实现安全挖矿  
   
-Erha-miner矿工加密机4.3加强版  
-二哈安全隧道使用的是 http+tls 的协议，目的是伪装成普通的网页流量访问，让流量特征监控失效。  
-1，支持构建ETH/ETC矿池的加密隧道。  
-2，调整加密难度增强混淆系数。  
-3，完全防掉线自动更换节点。  
+erha-miner安全隧道使用的是 http+tls 的协议，目的是伪装成普通的网页流量访问，让流量特征监控失效。  
+1，支持构建ETH/ETC/BTC/LTC/CFX/ERGO/RVN/KASPA矿池的加密隧道中转。  
+2，调整军工级别加密难度增强混淆系数。  
+3，防掉线客户端自动更换节点。  
 4，支持国内外常用安全矿池。  
 5，长期支持版本，放心免费使用。  
-6，新增linux/os版本支持。  
-下载连接：https://github.com/erha-miner/tool/releases/tag/4.3.0    
+6，支持win/os版本,下载客户端一键启动中转。  
+7，支持更多币种，让你无缝切换。  
+8，支持币种双挖，多挖。  
+
+下载连接：https://github.com/erha-miner/tool/releases/tag/5.0.0     
   
 免责协议：请您务必在当地法律法规允许的前提下进行    
 
@@ -28,7 +30,7 @@ stratum+tcp和stratum+SSL只是内容数据包有没有加密的区别，但是�
 
   
 官网在这里  https://github.com/erha-miner/tool  
-最新版下载在这里 https://github.com/erha-miner/tool/releases/tag/4.3.0
+最新版下载在这里 https://github.com/erha-miner/tool/releases/tag/5.0.0  
 
 
 使用方法（windows系统）：  
