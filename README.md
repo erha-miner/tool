@@ -12,7 +12,9 @@ erha-miner安全隧道使用的是 http+tls 的协议，目的是伪装成普通
 8，支持币种双挖，多挖。  
 
 下载连接：https://github.com/erha-miner/tool/releases/tag/5.0.0     
-  
+
+官网现已启动新域名：https://www.erha-miner.com    
+    
 免责协议：请您务必在当地法律法规允许的前提下进行    
 
 stratum协议是目前最常用的矿机和矿池之间的TCP通讯协议，只有在挖矿场景才会用到。  
