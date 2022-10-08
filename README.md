@@ -2,7 +2,7 @@
 使用二哈矿工构建加密隧道实现安全挖矿  
   
 erha-miner安全隧道使用的是 http+tls 的协议，目的是伪装成普通的网页流量访问，让流量特征监控失效。  
-1，支持构建ETH/ETC/BTC/LTC/CFX/ERGO/RVN/KASPA矿池的加密隧道中转。  
+1，支持构建ETHW/ETHF/ETC/BTC/LTC/CFX/ERGO/RVN/KASPA/NEOX/DCR矿池的加密隧道中转。  
 2，调整加密难度增强混淆系数。  
 3，分布式防掉线客户端自动更换节点。  
 4，支持国内外常用安全矿池。  
