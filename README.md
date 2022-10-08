@@ -9,11 +9,14 @@ erha-miner安全隧道使用的是 http+tls 的协议，目的是伪装成普通
 5，长期支持版本，放心免费使用。  
 6，支持win/os版本,下载客户端一键启动中转。  
 7，支持更多币种，让你无缝切换。  
-8，支持币种双挖，多挖。  
+8，支持币种双挖，多挖。
+9，低至千分三的Gas费率。
 
-下载连接：https://github.com/erha-miner/tool/releases/tag/5.0.0     
+下载连接：https://github.com/erha-miner/tool/releases/tag/5.0.6  
 
 官网现已启动新域名：https://www.erha-miner.com    
+
+后期更新请关注官网域名，更新时效更快更准
     
 免责协议：请您务必在当地法律法规允许的前提下进行    
 
